@@ -5,7 +5,10 @@ const Header = () => {
   return (
     <>
       <Head>
-        <title>Saha Global</title>
+        <title>
+          Saha Global | Getting the Cleanest Water to the Hardest to Reach
+          People
+        </title>
         <meta
           name="description"
           content="Saha gets the cleanest water to the hardest to reach people who need it most. We work in rural Northern Region Ghana where we set up entrepreneurial women with chlorinating businesses that provide clean water that all can afford."
