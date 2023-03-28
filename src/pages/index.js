@@ -6,6 +6,7 @@ import {
   Header,
   Nav,
   Hero,
+  About,
   Opportunities,
   BlogFeed,
   Partners,
@@ -17,8 +18,11 @@ export default function Home() {
     <>
       <Header />
       <main className="flex flex-col items-center justify-start min-h-screen w-screen">
-        <Nav />
-        <Hero />
+        <div className="w-full xs:w-4/5 max-w-[1024px]">
+          <Nav />
+          <Hero />
+          <About />
+        </div>
       </main>
     </>
   );
