@@ -20,8 +20,8 @@ module.exports = {
       offGrey: "#BFE5F2",
     },
     fontFamily: {
-      sans: ["Inter", "sans-serif"],
-      serif: ["Merriweather", "serif"],
+      sans: ["Poppins", "sans-serif"],
+      serif: ["Lora", "serif"],
     },
   },
 };
