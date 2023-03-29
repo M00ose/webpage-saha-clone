@@ -7,7 +7,7 @@ import {
   Nav,
   Hero,
   Stats,
-  About,
+  TOC,
   Opportunities,
   BlogFeed,
   Partners,
@@ -23,7 +23,8 @@ export default function Home() {
           <Nav />
           <Hero />
           <Stats />
-          <About />
+          <TOC />
+          <Partners />
         </div>
       </main>
     </>
