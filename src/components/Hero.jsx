@@ -10,27 +10,25 @@ import { hero } from "../assets";
 
 const Hero = () => {
   return (
-    <div className="relative isolate px-6 pt-14 pb-14 lg:px-8">
+    <div className="relative isolate px-6 pt-14 pb-14 lg:px-8 font-sans">
       <div className="flex flex-col gap-4 md:gap-6 lg:gap-8 items-center justify-center text-white">
         <div className="px-2 sm:px-0 w-full sm:w-4/5 xl:w-3/5 text-4xl xl:text-5xl text-center font-bold z-20">
-          <h1>Getting the Cleanest Water to the Hardest to Reach People.</h1>
+          <h1 className="uppercase font-serif tracking-wider">
+            Getting the Cleanest Water to the Hardest to Reach People.
+          </h1>
         </div>
-        <div className="flex flex-col sm:flex-row gap-4 items-center justify-center text-1xl md:text-2xl lg:text-3xl z-20">
-          <div className="flex flex-col gap-4 items-center justify-center max-w-[200px]">
-            <h6 className="text-center">
-              <span className="font-bold">398</span> water businesses
-            </h6>
-            <Button className="w-fit bg-primary hover:bg-offBlack">
-              Learn More <span className="pl-2">&#x2192;</span>
+        <div className="flex flex-col gap-4 items-center justify-center px-2 sm:px-0 w-full sm:w-3/5 xl:w-[50%] text-center z-20">
+          <h2 className="z-20">
+            We work in rural Northern Region Ghana where we set up
+            entrepreneurial women with chlorinating businesses that provide
+            clean water that all can afford.
+          </h2>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <Button className="bg-primary min-w-[120px] hover:bg-offBlack">
+              Join Us
             </Button>
-          </div>
-          <div className="flex flex-col gap-4 items-center justify-center max-w-[200px]">
-            <h6 className="text-center">
-              <span className="font-bold">127,062</span> people served
-            </h6>
-            <Button className="w-fit bg-transparent text-white border-white border-1 border-solid hover:bg-transparent hover:italic">
-              See How it Works
-              <span className="pl-2">&#9654;</span>
+            <Button className="bg-transparent border-1 border-solid border-white hover:bg-offBlack min-w-[120px]">
+              Support Us
             </Button>
           </div>
         </div>
