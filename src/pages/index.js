@@ -8,7 +8,6 @@ import {
   Hero,
   Stats,
   TOC,
-  Opportunities,
   BlogFeed,
   Partners,
   Footer,
@@ -24,7 +23,10 @@ export default function Home() {
           <Hero />
           <Stats />
           <TOC />
+          <Entrepreneurs />
+          <BlogFeed />
           <Partners />
+          <Footer />
         </div>
       </main>
     </>

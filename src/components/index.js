@@ -3,8 +3,8 @@ import Nav from "./Nav";
 import Hero from "./Hero";
 import Stats from "./Stats";
 import TOC from "./TOC";
+import Entrepreneurs from "./Entrepreneurs";
 import BlogFeed from "./BlogFeed";
-import Opportunities from "./Opportunities";
 import Partners from "./Partners";
 import Footer from "./Footer";
 
@@ -14,7 +14,7 @@ export {
   Hero,
   Stats,
   TOC,
-  Opportunities,
+  Entrepreneurs,
   Partners,
   BlogFeed,
   Footer,
