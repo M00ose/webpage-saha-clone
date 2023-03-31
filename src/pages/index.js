@@ -8,6 +8,7 @@ import {
   Hero,
   Stats,
   TOC,
+  Entrepreneurs,
   BlogFeed,
   Partners,
   Footer,
@@ -17,7 +18,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="flex flex-col items-center justify-start min-h-screen w-screen font-sans">
+      <main className="flex flex-col items-center justify-start min-h-screen w-screen font-sans overflow-hidden">
         <div className="w-full xs:w-4/5 max-w-[1024px]">
           <Nav />
           <Hero />
@@ -26,8 +27,8 @@ export default function Home() {
           <Entrepreneurs />
           <BlogFeed />
           <Partners />
-          <Footer />
         </div>
+        <Footer />
       </main>
     </>
   );
