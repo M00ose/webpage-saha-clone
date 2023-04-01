@@ -19,7 +19,7 @@ export default function Home() {
     <>
       <Header />
       <main className="flex flex-col items-center justify-start min-h-screen w-screen font-sans overflow-hidden">
-        <div className="w-full xs:w-4/5 max-w-[1024px]">
+        <div className="w-full xs:w-4/5 max-w-screen xl:max-w-[1024px]">
           <Nav />
           <Hero />
           <Stats />
