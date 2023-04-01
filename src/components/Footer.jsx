@@ -13,8 +13,8 @@ import {
 
 const Footer = () => {
   return (
-    <div className="flex items-start justify-center w-full bg-primary font-sans">
-      <div className="flex flex-col sm:flex-row gap-8 justify-between w-full xs:w-4/5 max-w-[1024px] px-6 md:px-0 py-4 text-white text-sm">
+    <div className="relative flex items-start justify-center w-full bg-primary font-sans overflow-hidden">
+      <div className="flex flex-col sm:flex-row gap-8 justify-between w-full xs:w-4/5 max-w-[1024px] px-6 md:px-0 py-4 text-white text-sm z-20">
         <div className="flex-1 flex flex-col gap-4">
           <Image
             src="/logo.png"
@@ -71,6 +71,7 @@ const Footer = () => {
           <div></div>
         </div>
       </div>
+      <div className="absolute translate-y-20 blueWhiteGradient w-[1000px] h-[1000px] rounded-full"></div>
     </div>
   );
 };

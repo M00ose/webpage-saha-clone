@@ -39,7 +39,7 @@ const BlogFeed = () => {
               required={true}
               className="flex-1"
             />
-            <Button className="bg-primary hover:bg-offBlack">
+            <Button className="blueGradient hover:bg-offBlack">
               Sign up
               <svg
                 className="ml-2 -mr-1 h-4 w-4"

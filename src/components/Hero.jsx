@@ -24,7 +24,7 @@ const Hero = () => {
             clean water that all can afford.
           </h2>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button className="bg-primary min-w-[120px] hover:bg-offBlack">
+            <Button className="blueGradient min-w-[120px] hover:bg-offBlack">
               Join Us
             </Button>
             <Button className="bg-transparent border-1 border-solid border-white hover:bg-offBlack min-w-[120px]">
