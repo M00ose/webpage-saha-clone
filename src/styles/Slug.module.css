@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Poppins:ital,wght@0,200;0,400;0,700;0,800;1,400&display=swap");
+
+.content {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.content > * {
+  margin-bottom: 1rem;
+}
+
+.content > h1,
+.content > h2,
+.content > p {
+  text-align: left;
+}
+
+.content > *:last-child {
+  padding-bottom: 3rem;
+}
+
+.content h2 {
+  font-size: 2rem;
+}
+
+.content > div > p {
+  font-family: "Lora", serif;
+  font-size: 0.75rem;
+  text-align: center;
+  color: grey;
+}
+
+.content img {
+  display: inline-block;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.content img + img {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 1rem;
+}
