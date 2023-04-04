@@ -6,7 +6,7 @@ import { Navbar, Dropdown } from "flowbite-react";
 const Nav = () => {
   return (
     <Navbar fluid rounded>
-      <Navbar.Brand href="https://flowbite.com/">
+      <Navbar.Brand href="/">
         <Image alt="Saha Global logo" height="64" src="/logo.png" width="64" />
       </Navbar.Brand>
       <Navbar.Toggle />
