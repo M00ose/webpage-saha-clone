@@ -1,7 +1,7 @@
 import React from "react";
 
-const sustainability = () => {
-  return <div>sustainability</div>;
+const Sustainability = (props) => {
+  return <div className={props.visibility}>Sustainability</div>;
 };
 
-export default sustainability;
+export default Sustainability;

@@ -1,7 +1,7 @@
 import React from "react";
 
-const press = () => {
-  return <div>press</div>;
+const Press = (props) => {
+  return <div className={props.visibility}>Press</div>;
 };
 
-export default press;
+export default Press;

@@ -1,7 +1,7 @@
 import React from "react";
 
-const waterBusiness = () => {
-  return <div>waterBusiness</div>;
+const WaterBusiness = (props) => {
+  return <div className={props.visibility}>waterBusiness</div>;
 };
 
-export default waterBusiness;
+export default WaterBusiness;

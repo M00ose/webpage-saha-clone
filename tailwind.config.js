@@ -16,8 +16,10 @@ module.exports = {
     },
     colors: {
       primary: "#0099CC",
+      secondary: "#33ADD6",
       offBlack: "#001A22",
-      offGrey: "#BFE5F2",
+      offGrey: "#6099AC",
+      offWhite: "#BFE5F2",
     },
     fontFamily: {
       sans: ["Poppins", "sans-serif"],

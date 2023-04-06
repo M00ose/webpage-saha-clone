@@ -1,7 +1,7 @@
 import React from "react";
 
-const approach = () => {
-  return <div>approach</div>;
+const Approach = (props) => {
+  return <div className={props.visibility}>approach</div>;
 };
 
-export default approach;
+export default Approach;
