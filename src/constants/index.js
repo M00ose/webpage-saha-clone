@@ -22,6 +22,10 @@ import {
   vitolfoundation,
   waterharvest,
   waterloo,
+  kate,
+  kathryn,
+  kofi,
+  theo,
 } from "../assets";
 
 import {
@@ -140,5 +144,28 @@ export const socials = [
     name: "Mail",
     icon: <CiMail size={24} />,
     link: "mailto:kate@sahaglobal.com",
+  },
+];
+
+export const Sahateam = [
+  {
+    name: "Kate Cincotta (Clopek)",
+    title: "Co-Founder and Executive Director",
+    image: kate,
+  },
+  {
+    name: "Theo Boateng",
+    title: "Director of Operations, Expansion, and Partnerships",
+    image: theo,
+  },
+  {
+    name: "Kofi Duku",
+    title: "Director of Water Quality and Service Delivery",
+    image: kofi,
+  },
+  {
+    name: "Kathryn Padgett",
+    title: "Director of Innovation and Special Projects",
+    image: kathryn,
   },
 ];
