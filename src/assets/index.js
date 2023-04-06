@@ -25,6 +25,11 @@ import vitolfoundation from "./partners/vitolfoundation.png";
 import waterharvest from "./partners/waterharvest.jpg";
 import waterloo from "./partners/waterloo.jpg";
 
+import kate from "./team/kate-cincotta.jpg";
+import kathryn from "./team/kathryn-padgett.jpg";
+import theo from "./team/theo-boeteng.jpg";
+import kofi from "./team/kofi-duku.jpeg";
+
 export {
   hero,
   Samata,
@@ -50,4 +55,8 @@ export {
   vitolfoundation,
   waterharvest,
   waterloo,
+  kate,
+  kathryn,
+  kofi,
+  theo,
 };
