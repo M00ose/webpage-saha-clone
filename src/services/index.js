@@ -52,3 +52,60 @@ export const getSlugList = async () => {
 
   return await graphcms.request(query);
 };
+
+export const getEntrepreneurs = async () => {
+  const query = gql`
+    {
+      entrepreneurs {
+        name
+        origin
+        coverPhoto {
+          url
+          height
+          width
+        }
+        description {
+          html
+        }
+        publishedAt
+        slug
+      }
+    }
+  `;
+
+  return await graphcms.request(query);
+};
+export const getEntrepreneur = async (slug) => {
+  const query = gql`
+    query Entrepreneur($slug: String!) {
+      post(where: { slug: $slug }) {
+        name
+        origin
+        coverPhoto {
+          url
+          height
+          width
+        }
+        slug
+        datePublished
+        description {
+          html
+        }
+      }
+    }
+  `;
+
+  return await graphcms.request(query, { slug });
+};
+
+export const getEntrepreneurSlugList = async () => {
+  const query = gql`
+    {
+      entrepreneurs {
+        slug
+      }
+    }
+  `;
+
+  return await graphcms.request(query);
+};
