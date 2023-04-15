@@ -40,7 +40,7 @@ const BlogFeed = () => {
               className="flex-1"
             />
             <Button className="blueGradient hover:bg-offBlack">
-              Sign up
+              <label htmlFor="sign-up">Sign up</label>
               <svg
                 className="ml-2 -mr-1 h-4 w-4"
                 fill="currentColor"

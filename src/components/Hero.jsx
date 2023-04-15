@@ -10,7 +10,7 @@ import { hero } from "../assets";
 
 const Hero = () => {
   return (
-    <div className="relative isolate px-6 pt-14 pb-14 lg:px-8 font-sans">
+    <header className="relative isolate px-6 pt-14 pb-14 lg:px-8 font-sans">
       <div className="flex flex-col gap-4 md:gap-6 lg:gap-8 items-center justify-center text-white">
         <div className="px-2 sm:px-0 w-full sm:w-4/5 xl:w-3/5 text-4xl xl:text-5xl text-center font-bold z-20">
           <h1 className="uppercase font-serif tracking-wider">
@@ -25,10 +25,10 @@ const Hero = () => {
           </h2>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button className="blueGradient min-w-[120px] hover:bg-offBlack">
-              Join Us
+              <label htmlFor="join-us">Join Us</label>
             </Button>
             <Button className="bg-transparent border-1 border-solid border-white hover:bg-offBlack min-w-[120px]">
-              Support Us
+              <label htmlFor="support-us">Support Us</label>
             </Button>
           </div>
         </div>
@@ -37,14 +37,14 @@ const Hero = () => {
         <Image
           key="hero-banner"
           src={hero}
-          alt="woman carrying water"
+          alt="Women in rural Ghana carrying water containers on their heads."
           height={700}
           width={1600}
           className="object-cover h-full w-full z-0"
         />
       </div>
       <div className="absolute top-0 left-0 h-full w-full z-10 bg-black opacity-50"></div>
-    </div>
+    </header>
   );
 };
 

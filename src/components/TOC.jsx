@@ -30,7 +30,7 @@ const TOC = () => {
             Theory of Change
           </h2>
         </div>
-        <div className="absolute top-[2px] left-6 font-serif uppercase text-3xl text-offGrey z-10">
+        <div className="absolute top-[2px] left-6 font-serif uppercase text-3xl text-offWhite z-10">
           <h2 className="font-bold text-4xl md:text-5xl xl:text-6xl">
             Theory of Change
           </h2>
@@ -45,7 +45,7 @@ const TOC = () => {
             key={item.title}
             className="flex flex-col gap-4 items-center justify-start blueGradient mx-auto px-4 py-6 h-full rounded-lg shadow-lg md:max-w-xs w-full text-left md:text-center text-white overflow-clip"
           >
-            <h3 className="font-bold font-serif text-2xl text-offGrey">
+            <h3 className="font-bold font-serif text-2xl text-offWhite">
               {item.title}
             </h3>
             <p>{item.text}</p>
